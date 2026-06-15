@@ -1,6 +1,6 @@
 # Proma Skills
 
-> 224 个 Claude Code / Proma Agent Skills，覆盖跨境电商、飞书办公、数据分析、科学计算、内容创作、开发效率等场景。
+> 215 个 Claude Code / Proma Agent Skills，覆盖飞书办公、数据分析、社媒调研、科学计算、内容创作、开发效率等场景。
 >
 > 每一个 skill 都是生产环境实战打磨出来的，供参考学习和直接安装使用。
 
@@ -8,7 +8,7 @@
 
 **Skill** 是 Claude Code / Proma Agent 的可复用能力扩展。每个 skill 包含一个 `SKILL.md`（核心指令 + 触发规则），让 AI Agent 在特定场景下自动激活专业知识和工作流。
 
-这个仓库汇集了我在日常工作（亚马逊自营品牌、Google Ads、SEO、投资研究）中沉淀的全部 skill，包括：
+这个仓库汇集了我在日常工作（Google Ads、SEO、投资研究、社媒调研）中沉淀的全部 skill，也包括社区共享的精选 skill：
 
 - 手动编写的自定义业务 skill
 - 开源社区贡献的通用 skill
@@ -39,18 +39,6 @@ cp -r proma-skills/skills/* ~/.proma/agent-workspaces/default/skills/
 ```
 
 ## Skill 分类索引
-
-### 亚马逊 & 电商 (7 个)
-
-| Skill | 简介 |
-|-------|------|
-| `amazon-quality-investigation` | SPU 大货质量深度调查 — 拉取 ERP 质检/销量/评分/退货/利润/库存/采购/FBA 数据生成飞书报告 |
-| `amazon-keyword-tiering` | 亚马逊关键词分层与投放策略 |
-| `sif-keyword-scout` | Sif 关键词发现 — 基于 ASIN 反向挖掘竞品关键词 |
-| `sif-keyword-tracker` | Sif 关键词动态跟踪 — 监控主攻词位变化，输出词库更新报告 |
-| `sales-forecasting` | 销售与需求预测 — 统计/ML/DL/混合模型，特征工程，生产化部署 |
-| `trendy-shopping` | Google Ads Shopping/PMax 趋势品分析，挖掘高潜力商品 |
-| `troas-adjust` | Google Ads ROAS 目标调整策略 |
 
 ### 飞书 / Lark 集成 (23 个)
 
@@ -114,24 +102,23 @@ cp -r proma-skills/skills/* ~/.proma/agent-workspaces/default/skills/
 | `bggg-creator-image2psd` | 创作者图片转 PSD |
 | `bggg-skill-taotie` | Skill 进化器（饕餮）— 分析整合两个 skill 的优势 |
 
-### 数据与分析 (7 个)
+### 数据与分析 (6 个)
 
 | Skill | 简介 |
 |-------|------|
 | `data-master` | 数据分析大师 — MECE 拆解 + 假设驱动 + Pyramid Principle 输出 |
 | `metabase-card-review` | Metabase 看板优化 — SQL 审查、bug 检测、美化、冒烟测试 |
-| `last30days` | 亚马逊近 30 天数据汇总分析 |
 | `cider-postgresql-master` | PostgreSQL 数据查询与分析 |
 | `database-lookup` | 78 个科学/生物医学/材料科学数据库搜索 |
 | `exploratory-data-analysis` | 科学数据探索性分析 |
 | `statistical-analysis` | 引导式统计分析 — 检验选择与报告 |
 
-### 市场研究 & 报告 (2 个)
+### 市场研究 & 社媒调研 (2 个)
 
 | Skill | 简介 |
 |-------|------|
 | `market-research-reports` | 市场研究报告生成（50+ 页，顶级咨询风格） |
-| `men-tshirt-Moikrakki` | 男装 T 恤品牌分析 |
+| `last30days` | 近30天全平台话题调研 — 国际（Reddit/X/YT/TikTok/HN）+ 中文（微博/小红书/B站/知乎/抖音/微信） |
 
 ### 开发工作流 (11 个)
 
