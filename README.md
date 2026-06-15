@@ -34,7 +34,7 @@ cp -r skills/<skill-name> ~/.proma/agent-workspaces/default/skills/
 ### 安装全部 Skills
 
 ```bash
-git clone https://github.com/Starr/proma-skills.git
+git clone https://github.com/StarrHuang/proma-skills.git
 cp -r proma-skills/skills/* ~/.proma/agent-workspaces/default/skills/
 ```
 
@@ -342,7 +342,6 @@ cp -r proma-skills/skills/* ~/.proma/agent-workspaces/default/skills/
 | `pymatgen` | 材料科学工具包 — 晶体结构/相图/能带 |
 | `molecular-dynamics` | 分子动力学模拟 — OpenMM + MDAnalysis |
 | `simpy` | 离散事件仿真框架 |
-| `pymatgen` | 材料科学 — CIF/POSCAR/相图/能带 |
 
 ### 临床与医疗 (4 个)
 
@@ -448,4 +447,4 @@ MIT
 
 ---
 
-**Author:** [Starr](https://github.com/Starr)
+**Author:** [StarrHuang](https://github.com/StarrHuang)
