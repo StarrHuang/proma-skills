@@ -1,0 +1,47 @@
+{
+  "patterns": [
+    {
+      "id": "p001",
+      "name": "公式审计注入",
+      "category": "quality",
+      "source_skill": "audit-xls",
+      "applied_to": ["xlsx"],
+      "description": "将Excel公式审计/逻辑校验/balance检查能力注入通用xlsx skill",
+      "when_to_apply": "当用户要求检查电子表格公式正确性、数据一致性时",
+      "implementation_hint": "在xlsx description中增加formula audit/逻辑检查触发词和提示",
+      "success_count": 1,
+      "user_satisfaction": "high",
+      "created_at": "2026-06-12"
+    },
+    {
+      "id": "p002",
+      "name": "演示QC+数据刷新注入",
+      "category": "quality",
+      "source_skill": "ib-check-deck + deck-refresh",
+      "applied_to": ["pptx"],
+      "description": "将PPT数字刷新（无需重建deck）和演示QC（一致性/叙事/格式检查）注入pptx skill",
+      "when_to_apply": "当用户需要批量更新PPT数据或检查演示质量时",
+      "implementation_hint": "在pptx description中增加deck refresh和QC检查能力",
+      "success_count": 1,
+      "user_satisfaction": "high",
+      "created_at": "2026-06-12"
+    },
+    {
+      "id": "p003",
+      "name": "同名skill去歧义标注",
+      "category": "robustness",
+      "source_skill": "troas-adjust (Google Ads)",
+      "applied_to": ["troas-adjust"],
+      "description": "明确标注Google Ads Target ROAS vs 金融TROAS的区别，防止歧义触发",
+      "when_to_apply": "当存在同名但不同域skill时",
+      "implementation_hint": "在description中明确标注领域归属和排除场景",
+      "success_count": 1,
+      "user_satisfaction": "high",
+      "created_at": "2026-06-12"
+    }
+  ],
+  "meta": {
+    "total_evolutions": 3,
+    "most_effective_category": "quality"
+  }
+}

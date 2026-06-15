@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Skills that are their own repos (already published separately)
+# image-half-cut has its own repo: github.com/Starr/image-half-cut
+
+# Large skills (too big for GitHub)
+skills/gstack/
